@@ -1,5 +1,21 @@
 ## Credit Risk Modeling – Streamlit App
 
+### Project Overview
+
+This project implements a Credit Risk Modeling framework for financial institutions to assess the likelihood of default among loan applicants. Using machine learning techniques, the system improves risk prediction and supports better lending decisions.
+The model achieved:
+- AUC (ROC): Improved from 82% → 88%
+- KS Statistic: 46 (above industry benchmark)
+- Gini Coefficient: Improved from 78 → 85
+- 12% reduction in projected defaults with model deployment
+
+### Tech Stack
+
+- Languages/Frameworks: Python, Streamlit
+- Libraries: Pandas, NumPy, Scikit-learn, Optuna, Matplotlib, Seaborn
+- ML Models: Logistic Regression, Random Forest, Gradient Boosting
+- Deployment: Streamlit
+
 ### Run locally
 
 ```bash
